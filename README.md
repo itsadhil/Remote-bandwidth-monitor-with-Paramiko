@@ -96,9 +96,11 @@ Replace username with your SSH username and remote_host with the IP address or h
 - Authentication failed: Double-check the SSH username and password for the remote machine. Ensure OpenSSH Server is running on the remote machine.
 - SSHException: This could be due to a network issue or improper SSH setup. Test your SSH connection with ssh username@remote_host and resolve any errors.
 - No data displayed: Ensure the remote machine supports the Get-NetAdapterStatistics PowerShell command.
+- Make sure you're on a Local Account rather than a Microsoft Account on your windows for SSH to work
 
 ## Contributing
 Feel free to open issues or submit pull requests for improvements or bug fixes.
+Contact me on discord through @hayayaquazi
 
 
 
